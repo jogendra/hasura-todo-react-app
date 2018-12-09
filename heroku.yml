@@ -1,0 +1,8 @@
+setup:
+  addons:
+    - plan: 'heroku-postgresql:hobby-dev'
+      as: DATABASE
+  config:
+    HASURA_GRAPHQL_ACCESS_KEY: todoappsecret
+build:
+  languages: []
