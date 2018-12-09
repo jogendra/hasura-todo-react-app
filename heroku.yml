@@ -5,4 +5,5 @@ setup:
   config:
     HASURA_GRAPHQL_ACCESS_KEY: todoappsecret
 build:
-  languages: []
+  languages:
+    - nodejs
